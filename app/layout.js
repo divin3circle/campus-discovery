@@ -1,10 +1,9 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 export const metadata = {
-  title: "Campus Discovery🔎",
+  title: "Campus Discovery",
   description: "Get Started😊",
 };
 
