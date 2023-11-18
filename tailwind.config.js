@@ -19,6 +19,23 @@ module.exports = {
         secondary: "#fadddb",
         accent: "#ff0080",
       },
+      fontSize: {
+        sm: "0.566rem",
+        base: "0.8rem",
+        xl: "1.131rem",
+        "2xl": "1.599rem",
+        "3xl": "2.261rem",
+        "4xl": "3.197rem",
+        "5xl": "4.521rem",
+      },
+      fontFamily: {
+        heading: "Mukta Mahee",
+        body: "Mukta Mahee",
+      },
+      fontWeight: {
+        normal: "400",
+        bold: "700",
+      },
     },
   },
   plugins: [],
