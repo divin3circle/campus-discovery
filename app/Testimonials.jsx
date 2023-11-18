@@ -7,23 +7,24 @@ const Testimonials = () => {
         <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="md:flex md:items-end md:justify-between">
             <div className="max-w-xl">
-              <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                Read reviews from our on-campus students
+              <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+                Reviews from our on-campus students
               </h2>
 
               <p className="mt-6 max-w-lg leading-relaxed text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur praesentium natus sapiente commodi. Aliquid sunt
-                tempore iste repellendus explicabo dignissimos placeat, autem
-                harum dolore reprehenderit quis! Quo totam dignissimos earum.
+                With over five thousand students and staff members of the campus
+                visting the school on a daily basis, it has become a challenge
+                to locate a lost or misplaced itme. Here are some of the reviews
+                from students and members of staff who have been helped by the
+                website to find their lost items.
               </p>
             </div>
 
             <a
               href="#"
-              className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-rose-600 px-5 py-3 text-rose-600 transition hover:bg-rose-600 hover:text-white md:mt-0"
+              className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full  px-5 py-3 text-accent transition hover:bg-primary hover:text-white md:mt-0"
             >
-              <span className="font-medium"> Read all reviews </span>
+              <span className="font-medium"> Visit site </span>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,8 +94,8 @@ const Testimonials = () => {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                    Stayin' Alive
+                  <p className="text-2xl font-bold text-accent sm:text-3xl">
+                    Sylus A.
                   </p>
 
                   <p className="mt-4 leading-relaxed text-gray-700">
@@ -107,7 +108,7 @@ const Testimonials = () => {
               </div>
 
               <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                &mdash; Michael Scott
+                &mdash; Genesis Item
               </footer>
             </blockquote>
 
@@ -161,8 +162,8 @@ const Testimonials = () => {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                    Stayin' Alive
+                  <p className="text-2xl font-bold text-accent sm:text-3xl">
+                    Ian M.
                   </p>
 
                   <p className="mt-4 leading-relaxed text-gray-700">
@@ -175,7 +176,7 @@ const Testimonials = () => {
               </div>
 
               <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                &mdash; Michael Scott
+                &mdash; Student ID
               </footer>
             </blockquote>
 
@@ -229,8 +230,8 @@ const Testimonials = () => {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                    Stayin' Alive
+                  <p className="text-2xl font-bold text-accent sm:text-3xl">
+                    Jimmy G.
                   </p>
 
                   <p className="mt-4 leading-relaxed text-gray-700">
@@ -243,7 +244,7 @@ const Testimonials = () => {
               </div>
 
               <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
-                &mdash; Michael Scott
+                &mdash; Calculator
               </footer>
             </blockquote>
           </div>

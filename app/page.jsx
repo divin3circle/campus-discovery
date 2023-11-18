@@ -6,16 +6,18 @@ import Testimonials from "./testimonials";
 export default function Home() {
   return (
     <>
-      <div className="md:flex p-4 mt-16 justify-between block ">
-        <div className="flex items-center justify-center xs:p-0 md:p-4">
-          <SplineContainer />
+      <div className="md:flex p-4 mt-16 md:mt-32 justify-between block ">
+        <div className="flex justify-center items-center ">
+          <div>
+            <SplineContainer />
+          </div>
         </div>
         <div className="">
-          <h1 className="text-center font-semibold text-4xl">
+          <h1 className="text-center font-semibold text-3xl md:text-4xl">
             Find your misplaced items{" "}
             <span className="text-accent font-bold">effortlessly</span>
           </h1>
-          <p className="p-2 text-xl leading-relaxed text-center mt-8">
+          <p className="p-2 md:text-xl text-lg leading-relaxed text-center mt-8">
             Rediscover your misplaced items around the campus effortlessly,
             effortlessly reclaiming and reconnecting with those lost possessions
             that hold immense value and are essential in your daily life.
