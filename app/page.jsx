@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+/* import Image from "next/image";
+import Link from "next/link"; */
 import SplineContainer from "./spline";
-import Testimonials from "./testimonials";
+import Testimonials from "./Testimonials";
 
 export default function Home() {
   return (
