@@ -137,7 +137,7 @@ const Footer = () => {
           <div className="text-lg text-gray-600 text-center mb-8">
             Follow me on Github👇{" "}
             <a href="https://github.com/divin3circle" target="_blank">
-              <h1 className="flex text-center items-center gap-1 cursor-pointer text-accent border-accent ease-in duration-200 hover:border-b-2">
+              <h1 className="flex justify-center hover:scale-105 text-center items-center gap-1 cursor-pointer text-accent border-accent ease-in duration-200 hover:border-b-2">
                 divin3circle
                 <FaGithub size={20} />
               </h1>
