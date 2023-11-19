@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Testimonials = () => {
   return (
@@ -20,8 +21,8 @@ const Testimonials = () => {
               </p>
             </div>
 
-            <a
-              href="#"
+            <Link
+              href="/home"
               className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full  px-5 py-3 text-accent transition hover:bg-primary hover:text-white md:mt-0"
             >
               <span className="font-medium"> Visit site </span>
@@ -40,7 +41,7 @@ const Testimonials = () => {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">
