@@ -2,7 +2,7 @@
 import Link from "next/link";
 import SplineContainer from "./spline";
 import Testimonials from "./Testimonials";
-import Pricing from "./pricing";
+import Pricing from "./Pricing";
 import Stats from "./Stats";
 
 export default function Home() {
