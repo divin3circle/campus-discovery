@@ -135,7 +135,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-center items-center p-2">
           <div className="text-lg text-gray-600 text-center mb-8">
-            Made by{" "}
+            Follow me on Github👇{" "}
             <a href="https://github.com/divin3circle" target="_blank">
               <h1 className="flex justify-between items-center gap-1 cursor-pointer text-accent border-accent ease-in duration-200 hover:border-b-2">
                 divin3circle
