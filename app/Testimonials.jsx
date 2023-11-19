@@ -4,7 +4,7 @@ import Link from "next/link";
 const Testimonials = () => {
   return (
     <div>
-      <section className="bg-white mt-12">
+      <section className="bg-white mt-16">
         <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="md:flex md:items-end md:justify-between">
             <div className="max-w-xl">

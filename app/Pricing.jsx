@@ -4,7 +4,7 @@ import Link from "next/link";
 const Pricing = () => {
   return (
     <div>
-      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 mt-12">
+      <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 mt-16">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-center md:gap-8">
           <div className="rounded-2xl border border-accent p-6 shadow-xl shadow-accent ring-1 ring-accent sm:order-last sm:px-8 lg:p-12">
             <div className="text-center">

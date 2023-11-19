@@ -8,7 +8,7 @@ import Stats from "./Stats";
 export default function Home() {
   return (
     <>
-      <div className="md:flex p-4 mt-16 md:mt-32 justify-between block ">
+      <div className="md:flex p-4 mt-16  justify-between block ">
         <div className="flex justify-center items-center ">
           <div>
             <SplineContainer />
