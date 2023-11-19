@@ -1,6 +1,6 @@
 /* import Image from "next/image";*/
 import Link from "next/link";
-import SplineContainer from "./spline";
+import SplineContainer from "./Spline";
 import Testimonials from "./Testimonials";
 import Pricing from "./Pricing";
 import Stats from "./Stats";
