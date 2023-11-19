@@ -1,9 +1,10 @@
 import React from "react";
+import Link from "next/link";
 
 const Testimonials = () => {
   return (
     <div>
-      <section className="bg-white">
+      <section className="bg-white mt-16">
         <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <div className="md:flex md:items-end md:justify-between">
             <div className="max-w-xl">
@@ -20,8 +21,8 @@ const Testimonials = () => {
               </p>
             </div>
 
-            <a
-              href="#"
+            <Link
+              href="/home"
               className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full  px-5 py-3 text-accent transition hover:bg-primary hover:text-white md:mt-0"
             >
               <span className="font-medium"> Visit site </span>
@@ -40,7 +41,7 @@ const Testimonials = () => {
                   d="M14 5l7 7m0 0l-7 7m7-7H3"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">

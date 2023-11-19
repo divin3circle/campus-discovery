@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-transparent">
+      <footer className="bg-secondary rounded-t-lg mt-16">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="flex cursor-pointer justify-center">
             <FcSearch size={40} />
@@ -132,6 +132,17 @@ const Footer = () => {
               </a>
             </li>
           </ul>
+        </div>
+        <div className="flex justify-center items-center p-2">
+          <div className="text-lg text-gray-600 text-center mb-8">
+            Follow me on Github👇{" "}
+            <a href="https://github.com/divin3circle" target="_blank">
+              <h1 className="flex justify-center hover:scale-105 text-center items-center gap-1 cursor-pointer text-accent border-accent ease-in duration-200 hover:border-b-2">
+                divin3circle
+                <FaGithub size={20} />
+              </h1>
+            </a>
+          </div>
         </div>
       </footer>
     </div>

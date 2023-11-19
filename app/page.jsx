@@ -1,12 +1,14 @@
-import Image from "next/image";
+/* import Image from "next/image";*/
 import Link from "next/link";
 import SplineContainer from "./spline";
-import Testimonials from "./testimonials";
+import Testimonials from "./Testimonials";
+import Pricing from "./Pricing";
+import Stats from "./Stats";
 
 export default function Home() {
   return (
     <>
-      <div className="md:flex p-4 mt-16 md:mt-32 justify-between block ">
+      <div className="md:flex p-4 mt-16  justify-between block ">
         <div className="flex justify-center items-center ">
           <div>
             <SplineContainer />
@@ -23,13 +25,17 @@ export default function Home() {
             that hold immense value and are essential in your daily life.
           </p>
           <div className="flex items-center justify-center mt-4">
-            <button className="bg-primary py-2 px-4 rounded-lg text-xl hover:shadow-xl shadow-accent hover:scale-110 ease-in duration-150 text-white hover:bg-transparent hover:text-text border-[1px] border-primary">
-              Get started
-            </button>
+            <Link href="/home">
+              <button className="bg-accent py-2 px-4 rounded-lg text-xl hover:shadow-xl shadow-accent hover:scale-110 ease-in duration-150 text-white hover:bg-transparent hover:text-text border-[1px] border-accent">
+                Get started
+              </button>
+            </Link>
           </div>
         </div>
       </div>
+      <Stats />
       <Testimonials />
+      <Pricing />
     </>
   );
 }
