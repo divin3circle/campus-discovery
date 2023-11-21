@@ -50,7 +50,7 @@ const Navigation = () => {
               <ImOffice size={24} />
             </li>
             <li className="hover:bg-accent my-2 flex justify-center items-center gap-2 rounded-lg py-2 px-2 font-semibold cursor-pointer bg-gray-200 hover:text-white ">
-              Other
+              Other&apos;
               <FaQuestion size={24} />
             </li>
           </ul>
