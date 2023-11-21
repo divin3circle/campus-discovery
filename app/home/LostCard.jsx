@@ -9,7 +9,7 @@ const LostCard = ({ data }) => {
         href="#"
         className="block rounded-lg p-4 shadow-sm hover:scale-105 ease-in duration-150 shadow-indigo-100"
       >
-        <Image
+        <img
           alt={data.title}
           src={data.imageUrl}
           className="h-56 w-full rounded-md object-cover"
