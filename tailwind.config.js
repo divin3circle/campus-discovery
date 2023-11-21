@@ -18,6 +18,7 @@ module.exports = {
         primary: "#F79489",
         secondary: "#fadddb",
         accent: "#ff0080",
+        menu: "#CEE3E9",
       },
       fontSize: {
         sm: "0.566rem",
