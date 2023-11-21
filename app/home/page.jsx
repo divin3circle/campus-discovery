@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import HomeNavbar from "./HomeNavbar";
 import Navigation from "./Navigation";
-import data from "./data";
 import LostCard from "./LostCard";
 
 const page = () => {
