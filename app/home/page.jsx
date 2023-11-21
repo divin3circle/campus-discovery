@@ -3,6 +3,7 @@ import Link from "next/link";
 import HomeNavbar from "./HomeNavbar";
 import Navigation from "./Navigation";
 import LostCard from "./LostCard";
+import data from "./data";
 
 const page = () => {
   console.log(data[data.id]);
