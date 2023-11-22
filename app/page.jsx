@@ -4,6 +4,7 @@ import SplineContainer from "./spline";
 import Testimonials from "./Testimonials";
 import Pricing from "./Pricing";
 import Stats from "./Stats";
+import hero from "../public/hero.png";
 
 export default function Home() {
   return (
@@ -11,7 +12,11 @@ export default function Home() {
       <div className="md:flex p-4 mt-16  justify-between block ">
         <div className="flex justify-center items-center ">
           <div>
-            <SplineContainer />
+            {/* <SplineContainer /> */}
+            <img
+              alt="hero"
+              src="https://img.freepik.com/vecteurs-premium/concept-bagage-perdu-trouve-personnages-voyageurs-reclament-bagages-tapis-roulant-bureau-aeroport-passagers-contraries_87771-15414.jpg?w=2000"
+            />
           </div>
         </div>
         <div className="">
